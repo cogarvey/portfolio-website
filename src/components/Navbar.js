@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from "react-scroll";
 import { SocialIcon } from "react-social-icons"
 
@@ -8,22 +9,22 @@ export default function Navbar() {
         <nav className="nav__container__actions">
           <ul>
             <li>
-              <Link smooth spy to="home">
+              <Link>
                 HOME
               </Link>
             </li>
             <li>
-              <Link smooth spy to="projects">
+              <Link>
                 PROJECTS
               </Link>
             </li>
             <li>
-              <Link smooth spy to="about">
+              <Link>
                 ABOUT
               </Link>
             </li>
             <li>
-              <Link smooth spy to="contact">
+              <Link>
                 CONTACT
               </Link>
             </li>

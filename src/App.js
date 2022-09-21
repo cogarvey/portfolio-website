@@ -39,6 +39,10 @@ function App() {
           <section id="contact">
             <Contact />
           </section>
+          <section id="footer">
+            <Footer />
+          </section>
+    </div>
     </div>
   );
 }

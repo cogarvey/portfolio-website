@@ -21,7 +21,6 @@ export default function Navbar() {
             <p>
               <Link>CONTACT</Link>
             </p>
-        </nav>
 
           <div className="web-links">
             <SocialIcon
@@ -35,7 +34,7 @@ export default function Navbar() {
                 maxHeight: "40px",
                 maxWidth: "40px",
               }}
-            />
+              />
             <SocialIcon
               url="https://www.linkedin.com/in/cogarvey"
               target="_blank"
@@ -48,8 +47,9 @@ export default function Navbar() {
                 maxWidth: "40px",
                 marginLeft: "1.5vw",
               }}
-            />
+              />
           </div>
+              </nav>
       </header>
     </div>
   );

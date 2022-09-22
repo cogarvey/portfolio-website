@@ -2,7 +2,10 @@
   position: fixed;
   left: 0;
   width: 100%;
-  background-color: red;
-  color: white;
-  float: right;
+  color: yellow;
 }
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+

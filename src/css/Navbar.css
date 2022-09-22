@@ -1,7 +1,8 @@
 .nav {
-  position: fixed;
-  left: 0;
+  position: absolute;
+  top: 0;
   width: 100%;
+  background-color: rgb(157, 210, 183);
   color: yellow;
 }
 .nav-links {

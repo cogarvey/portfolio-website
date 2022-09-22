@@ -3,9 +3,10 @@ import { Link } from "react-scroll";
 import { SocialIcon } from "react-social-icons";
 
 export default function Navbar() {
+  
   return (
-    <div className="nav">
-      <header >
+    <div>
+      <header className="nav">
         <nav className="nav-links">
 
             <p>

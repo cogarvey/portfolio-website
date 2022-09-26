@@ -5,6 +5,7 @@ export default function Home() {
     <div>
       <header>
         <div class="container">
+        <div class="cloud"></div>
           <div class="row">
             <div class="col-md-12 text-center">
               <h2>Hey! Welcome to my website, I'm </h2>

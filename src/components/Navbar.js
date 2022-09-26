@@ -3,24 +3,22 @@ import { Link } from "react-scroll";
 import { SocialIcon } from "react-social-icons";
 
 export default function Navbar() {
-  
   return (
     <div>
       <header className="nav">
         <nav className="nav-links">
-
-            <p>
-              <Link>HOME</Link>
-            </p>
-            <p>
-              <Link>PROJECTS</Link>
-            </p>
-            <p>
-              <Link>ABOUT</Link>
-            </p>
-            <p>
-              <Link>CONTACT</Link>
-            </p>
+          <p>
+            <Link>HOME</Link>
+          </p>
+          <p>
+            <Link>PROJECTS</Link>
+          </p>
+          <p>
+            <Link>ABOUT</Link>
+          </p>
+          <p>
+            <Link>CONTACT</Link>
+          </p>
 
           <div className="web-links">
             <SocialIcon
@@ -34,7 +32,7 @@ export default function Navbar() {
                 maxHeight: "40px",
                 maxWidth: "40px",
               }}
-              />
+            />
             <SocialIcon
               url="https://www.linkedin.com/in/cogarvey"
               target="_blank"
@@ -47,9 +45,9 @@ export default function Navbar() {
                 maxWidth: "40px",
                 marginLeft: "1.5vw",
               }}
-              />
+            />
           </div>
-              </nav>
+        </nav>
       </header>
     </div>
   );

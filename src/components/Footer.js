@@ -4,10 +4,7 @@ export default function Footer() {
   return(
     <div className='footer'>
       <p>
-        This page is created by Colleen Garvey
-      </p>
-      <p>
-      © 2022
+        This page is created with 💖 by Colleen Garvey © 2022
       </p>
     </div>
   )

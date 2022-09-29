@@ -1,10 +1,12 @@
 import React from "react";
+import colleen from "../images/colleen.jpeg"
 
 export default function About() {
   return (
     <div>
       <h1 className="about-title">About</h1>
       <div className="about-container">
+      <img className="about-me-photo" src={colleen}></img>
         <div className="about-me-skills">
           <h3>Languages / Frameworks / Libraries:</h3>
           <p>

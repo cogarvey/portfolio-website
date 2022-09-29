@@ -1,0 +1,21 @@
+.about-container {
+  padding: 25%;
+  padding-top: 0%;
+  margin: 0%;
+
+}
+
+.about-title {
+  text-align: center;
+  color: white;
+  font-size: xx-large;
+}
+
+.about-me-text {
+  width: 50%;
+  float: right;
+}
+
+.about-me-skills {
+  float: left;
+}

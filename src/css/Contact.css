@@ -1,0 +1,20 @@
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 50%;
+  background-color: white;
+  max-width: 60vw;
+  min-height: 20vh;
+  padding: 30px;
+  box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+  border-radius: 10px;
+}
+.contact-container:hover {
+  box-shadow: 0.125rem  0.125rem 0.25rem 0.125rem  rgb(0 0 0 / 20%);
+}
+.contact-title {
+  text-align: center;
+  color: white;
+  font-size: xx-large;
+}

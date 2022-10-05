@@ -13,8 +13,23 @@
 .contact-container:hover {
   box-shadow: 0.125rem  0.125rem 0.25rem 0.125rem  rgb(0 0 0 / 20%);
 }
+
 .contact-title {
   text-align: center;
   color: white;
   font-size: xx-large;
+}
+
+.contact-paragraph {
+  text-align: center;
+}
+
+.contact-icon-linkedin {
+  
+  padding-left: 20px;
+  
+}
+
+.contact-icon-email {
+  
 }

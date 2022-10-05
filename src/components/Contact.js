@@ -1,55 +1,47 @@
-import React from 'react';
-import { SocialIcon } from 'react-social-icons';
+import React from "react";
+import { SocialIcon } from "react-social-icons";
 
 export default function Contact() {
-  return(
+  return (
     <div>
       <h1 className="contact-title">Contact</h1>
       <header>
         <div class="contact-container">
-          <p>
-            Please feel free to contact me on any of the following platforms!
+          <p className="contact-paragraph">
+            Please feel free to contact me on either of these platforms!
           </p>
-          <SocialIcon
-              url="https://github.com/cogarvey"
-              target="_blank"
-              bgColor="black"
-              fgColor="#f2ebe9"
-              style={{
-                height: "40px",
-                width: "40px",
-                maxHeight: "40px",
-                maxWidth: "40px",
-              }}
-            />
+          <div className="contact-icon-linkedin">
             <SocialIcon
               url="https://www.linkedin.com/in/cogarvey"
               target="_blank"
               bgColor="black"
               fgColor="#f2ebe9"
               style={{
-                height: "40px",
-                width: "40px",
-                maxHeight: "40px",
-                maxWidth: "40px",
-                marginLeft: "1.5vw",
+                height: "60px",
+                width: "60px",
+                maxHeight: "60px",
+                maxWidth: "60px",
               }}
             />
+              </div>
+              <div className="contact-icon-email">
+
             <SocialIcon
               url="mailto: colleenellengarvey@gmail.com"
               target="_blank"
               bgColor="black"
               fgColor="#f2ebe9"
               style={{
-                height: "40px",
-                width: "40px",
-                maxHeight: "40px",
-                maxWidth: "40px",
+                height: "60px",
+                width: "60px",
+                maxHeight: "60px",
+                maxWidth: "60px",
                 marginLeft: "1.5vw",
               }}
-            />
+              />
+              </div>
         </div>
       </header>
     </div>
-  )  
+  );
 }

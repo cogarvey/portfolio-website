@@ -1,4 +1,5 @@
 import React from 'react';
+import { SocialIcon } from 'react-social-icons';
 
 export default function Contact() {
   return(
@@ -7,14 +8,46 @@ export default function Contact() {
       <header>
         <div class="contact-container">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Please feel free to contact me on any of the following platforms!
           </p>
+          <SocialIcon
+              url="https://github.com/cogarvey"
+              target="_blank"
+              bgColor="black"
+              fgColor="#f2ebe9"
+              style={{
+                height: "40px",
+                width: "40px",
+                maxHeight: "40px",
+                maxWidth: "40px",
+              }}
+            />
+            <SocialIcon
+              url="https://www.linkedin.com/in/cogarvey"
+              target="_blank"
+              bgColor="black"
+              fgColor="#f2ebe9"
+              style={{
+                height: "40px",
+                width: "40px",
+                maxHeight: "40px",
+                maxWidth: "40px",
+                marginLeft: "1.5vw",
+              }}
+            />
+            <SocialIcon
+              url="mailto: colleenellengarvey@gmail.com"
+              target="_blank"
+              bgColor="black"
+              fgColor="#f2ebe9"
+              style={{
+                height: "40px",
+                width: "40px",
+                maxHeight: "40px",
+                maxWidth: "40px",
+                marginLeft: "1.5vw",
+              }}
+            />
         </div>
       </header>
     </div>
